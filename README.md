@@ -20,8 +20,10 @@ dependencies:
 ```crystal
 require "color-printer"
 
-puts green: "Hello World"
+puts({:green, "Hello World"})
 ```
+
+Because Crystal supports method overloading, your original `puts` still works the same.
 
 
 ## Development
