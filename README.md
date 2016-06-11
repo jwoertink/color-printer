@@ -25,6 +25,8 @@ puts({:green, "Hello World"})
 
 Because Crystal supports method overloading, your original `puts` still works the same.
 
+## NOTE
+After writing this, I learned that Crystal has built in coloring using `colorize`, and I also came across [Chalk Box](https://github.com/azukiapp/crystal-chalk-box) which aims to do the same thing, but better, and more complete than this. I don't really expect people to want to use this, it's more for learning the language.
 
 ## Development
 
