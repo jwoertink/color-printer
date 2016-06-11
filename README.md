@@ -28,7 +28,10 @@ Because Crystal supports method overloading, your original `puts` still works th
 
 ## Development
 
-TODO: Write development instructions here
+Things left to add
+* Add in background-colors
+* Maybe write a spec or two
+
 
 ## Contributing
 
